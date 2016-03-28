@@ -1,0 +1,43 @@
+{
+  "name": "voter-front",
+  "version": "0.0.0",
+  "description": "Real time app to handle simple voting (voting view)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "keywords": [
+    "real-time",
+    "socket.io"
+  ],
+  "author": "gillchristian",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.2",
+    "angular-cookies": "^1.5.2",
+    "angular-ui-bootstrap": "^1.2.5",
+    "angular-ui-router": "^0.2.18",
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "csswring": "^4.0.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-postcss": "^6.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rucksack": "^0.1.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "merge-stream": "^1.0.0"
+  },
+  "engines": {
+    "node": "4.4.0",
+    "npm": "2.14.20"
+  }
+}

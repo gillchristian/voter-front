@@ -1,0 +1,21 @@
+// --- votes objects styles ---
+.vote {
+  &--container {
+
+  }
+  &--item {
+    background-color: $primary300;
+    border: 2px solid $primary800;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 80vw;
+    height: 100px;
+    cursor: pointer;
+    transform: all 500ms ease-in-out-circ;
+    &.selected{
+      height: 400px;
+      border: 2px solid $accent200;
+      background-color: $primary500;
+    }
+  }
+}

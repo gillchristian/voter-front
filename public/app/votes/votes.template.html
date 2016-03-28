@@ -1,0 +1,18 @@
+<div class="vote--container flexCol c-center m-center">
+  <!-- contenders list -->
+  <div
+    class="vote--item full-center"
+    ng-repeat="item in vm.contenders"
+    ng-hide="vm.selected.label"
+    ng-click="vm.select(item)">
+    <span ng-bind="item.label"></span>
+  </div>
+
+  <!-- voted -->
+  <div
+    class="vote--item selected full-center"
+    ng-show="vm.selected.label"
+    <span ng-bind="vm.selected.label"></span>
+  </div>
+</div>
+
